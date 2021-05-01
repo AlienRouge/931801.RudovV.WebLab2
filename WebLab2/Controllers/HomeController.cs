@@ -42,7 +42,7 @@ namespace WebLab2.Controllers
         [HttpGet]
         public IActionResult ModParSepAction()
         {
-            return View("MPinSeparateAction");
+            return View("ModelParsingSeparateAction");
         }
 
         [HttpPost, ActionName("ModParSepAction")]
